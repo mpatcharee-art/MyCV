@@ -96,13 +96,29 @@ body {
   z-index: -1;
 }
 
+.hero-avatar-wrapper {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero-avatar {
-  width: 160px;
-  height: 160px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  border: 3px solid var(--green-mint);
+  border: 5px solid var(--green-mint);
   object-fit: cover;
-  box-shadow: 0 0 30px rgba(149, 213, 178, 0.3);
+  box-shadow: 0 0 50px rgba(149, 213, 178, 0.4);
+  transition: var(--transition);
+}
+
+.hero-avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 70px rgba(149, 213, 178, 0.6);
 }
 
 .hero-content {
