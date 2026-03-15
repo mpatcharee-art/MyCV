@@ -2,62 +2,64 @@
 <html lang="th">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="ประวัติส่วนตัวและผลงานวิชาการของ ผศ.ดร.พัชรี มณีรัตน์ ผู้เชี่ยวชาญด้านสถิติประยุกต์และปัญญาประดิษฐ์" />
-    <title>ผศ.ดร.พัชรี มณีรัตน์ | Asst. Prof. Patcharee Maneerat, Ph.D.</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        content="Resume/CV of Asst. Prof. Dr. Patcharee Maneerat - Expert in Applied Statistics and Data Science.">
+    <title>Patcharee Maneerat | Curriculum Vitae</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ===== NAVBAR ===== -->
+    <!-- NAVBAR -->
     <nav class="navbar" id="navbar">
         <div class="nav-brand">
             <span class="brand-initial">PM</span>
             <span class="brand-name">ผศ.ดร.พัชรี มณีรัตน์</span>
         </div>
         <ul class="nav-links">
-            <li><a href="#hero" class="nav-link active">หน้าแรก</a></li>
-            <li><a href="#experience" class="nav-link">ประสบการณ์</a></li>
-            <li><a href="#education" class="nav-link">การศึกษา</a></li>
-            <li><a href="#awards" class="nav-link">รางวัล & ทุนวิจัย</a></li>
-            <li><a href="#publications" class="nav-link">ผลงานวิชาการ</a></li>
-            <li><a href="#contact" class="nav-link">ติดต่อ</a></li>
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#awards" class="nav-link">Awards</a></li>
+            <li><a href="#publications" class="nav-link">Publications</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
         <div class="nav-toggle" id="navToggle">
             <span></span><span></span><span></span>
         </div>
     </nav>
 
-    <!-- ===== HERO ===== -->
+    <!-- HERO -->
     <section class="hero" id="hero">
         <div class="hero-bg"></div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <div class="hero-avatar-wrapper">
                 <div class="hero-avatar-ring"></div>
-                <img src="profile_green.png" alt="ผศ.ดร.พัชรี มณีรัตน์" class="hero-avatar" />
+                <!-- Using the most professional green-themed profile generated -->
+                <img src="profile_green.png" alt="Patcharee Maneerat" class="hero-avatar">
                 <div class="hero-avatar-badge">Ph.D.</div>
             </div>
             <div class="hero-text">
-                <p class="hero-greeting">Assistant Professor</p>
-                <h1 class="hero-name">พัชรี มณีรัตน์</h1>
-                <p class="hero-name-en">Patcharee Maneerat, Ph.D.</p>
+                <h1 class="hero-name">Patcharee Maneerat</h1>
+                <p class="hero-thai-name">ผู้ช่วยศาสตราจารย์ ดร.พัชรี มณีรัตน์</p>
+                <p class="hero-title">Program in Computer Engineering and Artificial Intelligence</p>
+                <p class="hero-subline">Faculty of Science and Technology, Uttaradit Rajabhat University</p>
                 <div class="hero-tags">
-                    <span class="tag tag--green">Computer Engineering & AI</span>
-                    <span class="tag tag--green">Applied Statistics</span>
-                    <span class="tag tag--green">Data Science</span>
+                    <span class="tag">Applied Statistics</span>
+                    <span class="tag">Data Science</span>
+                    <span class="tag">Bayesian Inference</span>
                 </div>
                 <div class="hero-cta">
-                    <a href="#experience" class="btn btn--primary">ดูประวัติการทำงาน</a>
-                    <a href="#publications" class="btn btn--outline">ผลงานวิจัย</a>
+                    <a href="#experience" class="btn btn--primary">View CV Details</a>
+                    <a href="#contact" class="btn btn--outline">Get in Touch</a>
                 </div>
             </div>
         </div>
@@ -67,43 +69,51 @@
         <div class="grid-layout">
             <!-- SIDEBAR -->
             <aside class="sidebar">
-                <div class="card profile-card">
-                    <h3>ข้อมูลติดต่อ</h3>
+                <!-- CONTACT CARD -->
+                <div class="card contact-card" id="contact">
+                    <div class="card-icon">📬</div>
+                    <h3>Address & Contact</h3>
                     <ul class="contact-list">
                         <li>
-                            <div class="icon">📍</div>
-                            <div class="text">Program in Data Science, Faculty of Science and Technology, URU</div>
+                            <span class="label">Address:</span>
+                            <p>Program in Data Science, Faculty of Science and Technology, Uttaradit Rajabhat
+                                University, 27 Injaimee Road, Tha-it, Mueang Uttaradit District, Uttaradit 53000,
+                                Thailand</p>
                         </li>
                         <li>
-                            <div class="icon">📞</div>
-                            <div class="text">+66(0)88-271-8660</div>
+                            <span class="label">Phone:</span>
+                            <p>+66(0)88-271-8660</p>
                         </li>
                         <li>
-                            <div class="icon">📧</div>
-                            <div class="text">m.patcharee@uru.ac.th</div>
+                            <span class="label">Email:</span>
+                            <p><a href="mailto:m.patcharee@uru.ac.th">m.patcharee@uru.ac.th</a></p>
                         </li>
                         <li>
-                            <div class="icon">🌐</div>
-                            <div class="text"><a href="https://www.researchgate.net/profile/Patcharee-Maneerat"
-                                    target="_blank">ResearchGate</a></div>
+                            <span class="label">Website:</span>
+                            <p><a href="https://www.researchgate.net/profile/Patcharee-Maneerat"
+                                    target="_blank">ResearchGate Profile</a></p>
                         </li>
                     </ul>
                 </div>
 
+                <!-- SKILLS CARD -->
                 <div class="card skills-card">
-                    <h3>Skills</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Bayesian inference</span>
-                        <span class="skill-tag">Interval estimation</span>
-                        <span class="skill-tag">Probability</span>
-                        <span class="skill-tag">Statistical inference</span>
-                        <span class="skill-tag">YOLO (Object Detection)</span>
-                        <span class="skill-tag">Lognormal Modeling</span>
+                    <div class="card-icon">⚙️</div>
+                    <h3>Core Skills</h3>
+                    <div class="skill-cloud">
+                        <span>Bayesian inference</span>
+                        <span>Interval estimation</span>
+                        <span>Probability</span>
+                        <span>Statistical inference</span>
+                        <span>Machine Learning</span>
+                        <span>YOLO (Object Detection)</span>
                     </div>
                 </div>
 
-                <div class="card info-graphic-card">
-                    <img src="stats_infographic.png" alt="Statistics Infographic" class="sidebar-infographic">
+                <!-- INFOGRAPHIC CARD -->
+                <div class="card infographic-card">
+                    <img src="stats_infographic.png" alt="Statistics Infographic" class="sidebar-img">
+                    <p class="img-caption">Data Analytics & Modeling Expertise</p>
                 </div>
             </aside>
 
@@ -111,20 +121,23 @@
             <main class="content-area">
                 <!-- EXPERIENCE -->
                 <section class="section-block" id="experience">
-                    <h2 class="section-title">EXPERIENCE</h2>
+                    <div class="section-header">
+                        <span class="icon">💼</span>
+                        <h2 class="section-title">EXPERIENCE</h2>
+                    </div>
                     <div class="timeline">
                         <div class="timeline-item">
-                            <div class="time">JUN 2022 - PRESENT</div>
-                            <div class="details">
+                            <div class="time-range">JUN 2022 - PRESENT</div>
+                            <div class="timeline-content">
                                 <h4>Lecturer | Program in Computer Engineering and Artificial Intelligence</h4>
-                                <p>Uttaradit Rajabhat University | Uttaradit 53000, Thailand</p>
+                                <p class="org">Uttaradit Rajabhat University | Uttaradit 53000, Thailand</p>
                             </div>
                         </div>
                         <div class="timeline-item">
-                            <div class="time">SEP 2012 - MAY 2022</div>
-                            <div class="details">
+                            <div class="time-range">SEP 2012 - MAY 2022</div>
+                            <div class="timeline-content">
                                 <h4>Lecturer | Program in Applied Mathematics</h4>
-                                <p>Uttaradit Rajabhat University | Uttaradit 53000, Thailand</p>
+                                <p class="org">Uttaradit Rajabhat University | Uttaradit 53000, Thailand</p>
                             </div>
                         </div>
                     </div>
@@ -132,111 +145,117 @@
 
                 <!-- EDUCATION -->
                 <section class="section-block" id="education">
-                    <h2 class="section-title">EDUCATION</h2>
-                    <ul class="edu-list">
+                    <div class="section-header">
+                        <span class="icon">🎓</span>
+                        <h2 class="section-title">EDUCATION</h2>
+                    </div>
+                    <ul class="education-list">
                         <li>
                             <strong>Doctor’s Degree in Applied Statistics</strong>
-                            <p>King Mongkut's University of Technology North Bangkok, Thailand</p>
+                            <span class="sub">King Mongkut's University of Technology North Bangkok, Thailand</span>
                         </li>
                         <li>
                             <strong>Visiting Research Student</strong>
-                            <p>Faculty of Social and Human Mathematical Sciences, University of Southampton, UK</p>
+                            <span class="sub">Faculty of Social and Human Mathematical Sciences, Highfield Campus,
+                                University of Southampton, UK</span>
                         </li>
                         <li>
                             <strong>Master’s Degree in Applied Statistics</strong>
-                            <p>Chiang Mai University, Thailand</p>
+                            <span class="sub">Chiang Mai University, Thailand</span>
                         </li>
                         <li>
                             <strong>Bachelor’s Degree in Statistics</strong>
-                            <p>Chiang Mai University, Thailand</p>
+                            <span class="sub">Chiang Mai University, Thailand</span>
                         </li>
                     </ul>
                 </section>
 
                 <!-- AWARDS & RESEARCH FUNDS -->
                 <section class="section-block" id="awards">
-                    <h2 class="section-title">AWARDS & RESEARCH FUNDS</h2>
-                    <div class="award-item">
-                        <span class="year">2025</span>
-                        <p><strong>ได้รับทุนสนับสนุนงานมูลฐาน Fundamental Fund ปีงบประมาณ
-                                2569</strong><br>โครงการวิจัยเรื่อง “นวัตกรรมเพื่อสุขภาพเด็ก:
-                            ต้นแบบดิจิทัลแพลตฟอร์มที่ขับเคลื่อนด้วยปัญญาประดิษฐ์สำหรับการจำแนกและคัดกรองความผิดปกติของเม็ดเลือดแดงในเด็กของโรงพยาบาลอุตรดิตถ์”
-                        </p>
+                    <div class="section-header">
+                        <span class="icon">🏆</span>
+                        <h2 class="section-title">AWARDS & RESEARCH FUNDS</h2>
                     </div>
-                    <div class="award-item">
-                        <span class="year">2025</span>
-                        <p><strong>รางวัลนักวิจัยดีเด่น ประจำปีการศึกษา 2567
-                                ด้านการตีพิมพ์ผลงานวิจัยระดับนานาชาติ</strong><br>(Cite Score รวมเท่ากับ 3.5)
-                            คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฎอุตรดิตถ์</p>
+                    <div class="awards-grid">
+                        <div class="award-box">
+                            <span class="award-year">2025</span>
+                            <p><strong>Fundamental Fund (2569):</strong> วิจัยเรื่อง “นวัตกรรมเพื่อสุขภาพเด็ก:
+                                ต้นแบบดิจิทัลแพลตฟอร์มที่ขับเคลื่อนด้วยปัญญาประดิษฐ์สำหรับการจำแนกและคัดกรองความผิดปกติของเม็ดเลือดแดง...”
+                            </p>
+                        </div>
+                        <div class="award-box">
+                            <span class="award-year">2025</span>
+                            <p><strong>Outstanding Researcher:</strong> ประจำปีการศึกษา 2567
+                                ด้านการตีพิมพ์ผลงานวิจัยระดับนานาชาติ (Cite Score 3.5)</p>
+                        </div>
+                        <div class="award-box">
+                            <span class="award-year">2023</span>
+                            <p><strong>Exemplary Researcher:</strong> รางวัลเชิดชูเกียรตินักวิจัยต้นแบบ
+                                มหาวิทยาลัยราชภัฎอุตรดิตถ์</p>
+                        </div>
+                        <div class="award-box emphasis">
+                            <span class="award-year">2021</span>
+                            <p><strong>Outstanding Dissertation Award:</strong> ระดับมหาวิทยาลัย - KMUTNB</p>
+                        </div>
                     </div>
-                    <div class="award-item">
-                        <span class="year">2023</span>
-                        <p><strong>รางวัลเชิดชูเกียรตินักวิจัยต้นแบบ</strong> ประเภทผลงานตีพิมพ์ระดับนานาชาติมากที่สุด
-                            ระหว่างปี พ.ศ. 2565-2566 มหาวิทยาลัยราชภัฎอุตรดิตถ์</p>
-                    </div>
-                    <div class="award-item">
-                        <span class="year">2021</span>
-                        <p><strong>รางวัลวิทยาพิพนธ์ดีเด่น
-                                ระดับมหาวิทยาลัย</strong><br>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</p>
-                    </div>
-                    <p class="more-link"><a href="#awards-full">ดูรายการทั้งหมดจาก PDF...</a></p>
                 </section>
 
-                <!-- PUBLICATIONS (Abbreviated) -->
+                <!-- PUBLICATIONS & CONFERENCES -->
                 <section class="section-block" id="publications">
-                    <h2 class="section-title">PUBLICATIONS & CONFERENCES</h2>
-                    <div class="pub-list">
-                        <div class="pub-item">
-                            <span class="pub-year">2026</span>
-                            <p><strong>Maneerat, P.</strong>, Nakjai, P., Niwitpong, S.-A. (2026). Statistical Methods
-                                by a Reparameterization of the Coefficient of Variation for a Three-Parameter Lognormal
-                                Model. <em>Sains Malaysiana</em> 55(2).</p>
-                        </div>
-                        <div class="pub-item">
-                            <span class="pub-year">2024</span>
-                            <p><strong>Maneerat, P.</strong>, et al. (2024). Estimation Methods for the Coefficient of
-                                Variation of the Three Parameter Lognormal Distribution... <em>Studies in Systems,
-                                    Decision and Control</em>, Springer.</p>
-                        </div>
-                        <div class="pub-item">
-                            <span class="pub-year">2024</span>
-                            <p>Nakjai, P., ..., <strong>Maneerat, P.</strong> (2024). YOLO-Based Object Detection for
-                                Locating Handwritten X-Marks on Multiple-Choice Answer Sheets. <em>JASE T</em> Vol. 3,
-                                No. 2.</p>
-                        </div>
+                    <div class="section-header">
+                        <span class="icon">📖</span>
+                        <h2 class="section-title">PUBLICATIONS & CONFERENCES</h2>
                     </div>
-                    <div class="conference-box">
-                        <h4>International Conferences</h4>
-                        <ul>
-                            <li>IEEA 2024, Tokyo, Japan</li>
-                            <li>TES 2024, Chiang Mai, Thailand</li>
-                            <li>IUKM 2022, Ishikawa, Japan</li>
+
+                    <div class="pub-group">
+                        <h3>Selected Publications (2018-2026)</h3>
+                        <ul class="pub-list">
+                            <li><strong>Maneerat, P.</strong>, et al. (2026). Statistical Methods by a
+                                Reparameterization of the Coefficient of Variation for a Three-Parameter Lognormal
+                                Model. <em>Sains Malaysiana</em>.</li>
+                            <li><strong>Maneerat, P.</strong>, et al. (2024). Interval Estimation Methods for the
+                                Variance of a Lognormal Model... <em>ACM Proceedings of IEEA'24</em>.</li>
+                            <li><strong>Maneerat, P.</strong>, and Niwitpong, S.A. (2021). Estimating the Average Daily
+                                Rainfall in Thailand... <em>PeerJ</em> 9: e10758.</li>
                         </ul>
+                    </div>
+
+                    <div class="conf-group">
+                        <h3>International Conferences</h3>
+                        <div class="conf-pills">
+                            <span>IEEA 2024 (Tokyo)</span>
+                            <span>TES 2024 (Chiang Mai)</span>
+                            <span>IUKM 2022 (Ishikawa)</span>
+                            <span>RGJ & RRI 2021 (Bangkok)</span>
+                            <span>IUKM 2020 (Phuket)</span>
+                        </div>
                     </div>
                 </section>
             </main>
         </div>
     </div>
 
+    <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
-            <p>© 2026 ผศ.ดร.พัชรี มณีรัตน์ — University Assistant Professor & Statistical Expert</p>
+            <p>© 2026 Assistant Professor Dr. Patcharee Maneerat | Modern CV Implementation</p>
+            <p class="footer-sub">Designed with modern green aesthetic and professional iconography.</p>
         </div>
     </footer>
 
     <script>
-        // Navbar scroll effect
-        window.addEventListener('scroll', () => {
-            document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
-        });
-
-        // Smooth scroll for nav links
+        // Smooth scroll
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', e => {
                 e.preventDefault();
                 const target = document.querySelector(link.getAttribute('href'));
                 window.scrollTo({ top: target.offsetTop - 80, behavior: 'smooth' });
             });
+        });
+
+        // Toggle mobile nav
+        document.getElementById('navToggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
         });
     </script>
 </body>
